@@ -1,0 +1,40 @@
+
+body{
+	margin: 0%;
+	padding: 0%;
+	background: #ff8243;  
+}
+
+#sidebar {
+	padding-bottom: 100%;
+	width: 200px;
+	height: 100%;
+	background: #e2692cc0;
+	position:absolute;
+}
+
+#sidebar ul li{
+	color: rgba(230, 230, 230, .9);
+	text-align: center;
+	padding: 15px 10px;
+	list-style: none;
+	border-bottom: 0.5px solid rgba(230, 230, 230, .9);
+}
+
+img {
+	border-radius: 100%;
+	display: block;
+	margin: 0% auto ;
+}
+
+#sidebar {
+	position: absolute;
+}
+
+#informacion {
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+	color: #ffffff; 
+	position:static;
+	
+	padding: 200px; 
+}

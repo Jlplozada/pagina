@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link href="stile.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="sidebar">
+		<ul>
+            <li>
+				<a href="menu.html">
+					<img src="img/logo.jpg" width="100" height="100" alt="logo">
+				</a>
+			</li>
+	        <li><a href="menugit.html">git</a></li>
+			<li><a href="menurepositorio.html">que es repositorio</a></li>
+			<li><a href="menuhtml.html">Que es html</a></li>
+		</ul>
+	</div>
+	<div id="informacion">
+		<h1>¿Qué es Git?</h1>
+		<p>Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora incluyendo coordinar el trabajo que varias personas realizan sobre archivos compartidos en un repositorio de código.</p>
+		<h2>Comandos</h2>
+		<p><b>git init</b> crear un repositorio</p>
+		<p><b>git clone nombredeusuario@host:/path/to/repository</b> se usa para copiar un repositorio remoto</p>
+		<p><b>git add </b>se usa para agregar archivos al área de preparación.</p>
+		<p><b>git commit – m</b> creará una instantánea de los cambios y la guardará en el directorio git.</p>
+		<p><b>git config --global user.email</b> puede ser usado para establecer una configuración específica de usuario, como el email</p>
+		<p><b>git config --local user.email </b> le dice a GIT que vas a usar ese correo electrónico para todos los repositorios locales</p>
+		<p><b>git status</b> muestra la lista de los archivos que se han cambiado junto con los archivos que están por ser preparados o confirmados</p>
+		<p><b>git push  origin</b> se usa para enviar confirmaciones locales a la rama maestra del repositorio remoto</p>
+		<p><b>command git checkout -b <branch-name></branch-name></b> crea ramas y te ayuda a navegar entre ellas. Por ejemplo, el siguiente comando crea una nueva y automáticamente se cambia a ella:</p>
+		<p><b>git checkout </b></p>Para cambiar de una rama a otra, sólo usa:
+		<p><b>git remote -v </b></p> te permite ver todos los repositorios remotos. El siguiente comando listará todas las conexiones junto con sus URLs:
+		<p><b>git remote add origin < host or remoteURL ></b> Para conectar el repositorio local a un servidor remoto, usa este comando:</p>
+		<p><b>git branch </b>se usa para listar, crear o borrar ramas</p>
+		<p><b>git pull </b> fusiona todos los cambios que se han hecho en el repositorio remoto con el directorio de trabajo local.</p>
+		<p><b>git merge </b> se usa para fusionar una rama con otra rama activa:</p>
+		<p><b>git log </b>e usa para ver el historial del repositorio listando ciertos detalles de la confirmación. Al ejecutar el comando se obtiene una salida como ésta</p>
+		<p><b>git reset </b>git reset sirve para resetear el index y el directorio de trabajo al último estado de confirmación.</p>
+		<p><b>git rm filename.txt </b>se puede usar para remover archivos del index y del directorio de trabajo.</p>
+		<p><b>git stash</b>guardará momentáneamente los cambios que no están listos para ser confirmados. De esta manera, pudes volver al proyecto más tarde.</p>
+		<p><b>git show </b> se usa para mostrar información sobre cualquier objeto git.</p>
+		<p><b>gitk </b> muestra la interfaz gráfica para un repositorio local. Simplemente ejecuta</p>
+		<p><b>git archive - -format=tar master </b>le permite al usuario crear archivos zip o tar que contengan los constituyentes de un solo árbol de repositorio</p>
+	</div>
+</body>
+</html>
